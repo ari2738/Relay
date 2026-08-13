@@ -8,6 +8,10 @@ import { SELF_SERVICE_ROLES } from "@/lib/roles"
 const hasGoogleOAuth = Boolean(process.env.GOOGLE_CLIENT_ID && process.env.GOOGLE_CLIENT_SECRET)
 
 export const auth = betterAuth({
+  trustedOrigins: [
+    "http://localhost:3000",
+    process.env.BETTER_AUTH_URL!,
+  ],
   database: drizzleAdapter(db, {
     provider: "pg",
     schema: {
