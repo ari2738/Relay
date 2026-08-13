@@ -9,9 +9,9 @@ const hasGoogleOAuth = Boolean(process.env.GOOGLE_CLIENT_ID && process.env.GOOGL
 
 export const auth = betterAuth({
   trustedOrigins: [
-    "http://localhost:3000",
-    process.env.BETTER_AUTH_URL!,
-  ],
+  "http://localhost:3000",
+  "https://relay-q2ec.onrender.com",
+],
   database: drizzleAdapter(db, {
     provider: "pg",
     schema: {
