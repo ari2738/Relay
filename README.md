@@ -1,11 +1,11 @@
+**live app**
+https://relay-q2ec.onrender.com⁠�
+
 # Relay — Community Accessibility Map
 
 A community-driven map of step-free entrances, working elevators, accessible
 restrooms, curb cuts, and temporary blockers — reported and verified by the
 people who rely on them.
-
-**live website link**
-https://relay-q2ec.onrender.com⁠�
 
 ## Stack
 
